@@ -14,5 +14,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/Lhita/53functions/issues"
+  },
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-qunit": "~1.2.1"
   }
 }
