@@ -22,3 +22,7 @@ QUnit.test("sum_numbers", function(assert){
 QUnit.test("length test", function(assert) {
 	assert.equal(length(6));
 });
+
+QUnit.test("upper test", function(assert) {
+	assert.equal(upper("pretty"),"PRETTY");
+});
