@@ -18,3 +18,7 @@ QUnit.test("number_list", function(assert){
 QUnit.test("sum_numbers", function(assert){
 	assert.equal(sum_numbers[1,2,3,4,5]);
 });
+
+QUnit.test("length test", function(assert) {
+	assert.equal(length(6));
+});
