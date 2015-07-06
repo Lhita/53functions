@@ -26,3 +26,7 @@ QUnit.test("length test", function(assert) {
 QUnit.test("upper test", function(assert) {
 	assert.equal(upper("pretty"),"PRETTY");
 });
+
+QUnit.test("reverse test", function(assert) {
+	assert.equal(reverse("Rula Nolitha"));
+});
