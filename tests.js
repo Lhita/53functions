@@ -28,5 +28,9 @@ QUnit.test("upper test", function(assert) {
 });
 
 QUnit.test("reverse test", function(assert) {
-	assert.equal(reverse("Rula Nolitha"));
+	assert.equal(reverse("Rula Nolitha" ));
+});
+
+QUnit.test("hello_list test", function(assert) {
+	assert.equal(hello_list(2), "hello world,hello world");
 });
