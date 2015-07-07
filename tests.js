@@ -34,3 +34,8 @@ QUnit.test("reverse test", function(assert) {
 QUnit.test("hello_list test", function(assert) {
 	assert.equal(hello_list(2), "hello world,hello world");
 });
+
+QUnit.test("high_low test", function(assert) {
+	var result = "max =32min =1";
+	assert.deepEqual(high_low([1,2,3,4,32]),result);
+});
