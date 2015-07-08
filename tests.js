@@ -36,6 +36,6 @@ QUnit.test("hello_list test", function(assert) {
 });
 
 QUnit.test("high_low test", function(assert) {
-	var result = "max =32min =1";
+	var result = "max =3min =1";
 	assert.deepEqual(high_low([1,2,3,4,32]),result);
 });
