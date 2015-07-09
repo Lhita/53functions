@@ -43,3 +43,7 @@ QUnit.test("high_low test", function(assert) {
 QUnit.test("count_words test", function(assert) {
 	assert.equal(count_words("I love my mom"),4);
 });
+
+QUnit.test("sum_word_len test", function(assert) {
+	assert.equal(sum_word_len("I love my mom"),13);
+});
