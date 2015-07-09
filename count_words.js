@@ -1,3 +1,3 @@
-function count_words(sent) {
-	return "I love my mom"
+function count_words(sentence) {
+	return sentence.split(" ").length;
 }
