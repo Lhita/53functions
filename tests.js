@@ -44,6 +44,15 @@ QUnit.test("count_words test", function(assert) {
 	assert.equal(count_words("I love my mom"),4);
 });
 
-QUnit.test("sum_word_len test", function(assert) {
-	assert.equal(sum_word_len("I love my mom"),13);
+QUnit.test("longest_word test", function(assert) {
+	var results = longest_word("happy to see you");
+	assert.deepEqual(results,["happy",5]);
 });
+
+QUnit.test("shortest_word", function(assert) {
+	var results = shortest_word("morning good Africa");
+	assert.deepEqual(results,["good",4]);
+});
+
+
+
