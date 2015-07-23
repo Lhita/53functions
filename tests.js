@@ -54,5 +54,8 @@ QUnit.test("shortest_word", function(assert) {
 	assert.deepEqual(results,["good",4]);
 });
 
-
+QUnit.test("word_length test", function(assert) {
+	var results = word_length("morning Africa");
+	assert.equal(results["morning",7]);
+});
 
