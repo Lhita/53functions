@@ -5,4 +5,4 @@ function number_list(n){
 		list.push(i);
 	};
 	return list;
-};
+}

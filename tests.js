@@ -1,5 +1,5 @@
 QUnit.test("hello test", function(assert) {
-	assert.equal(hello(), "hello world!");
+	assert.equal(hello(), "hello world");
 });
 
 QUnit.test("hello_uppercase test", function(assert) {
@@ -9,7 +9,7 @@ QUnit.test("hello_uppercase test", function(assert) {
 QUnit.test("hello_joe test", function(assert) {
 	assert.equal(hello_joe("Joe"), "Hello!");
 	assert.equal(hello_joe("Bob"), "Hello!");
-	assert.equal(hello_joe("Nolitha"),"HelloNolitha!");
+	assert.equal(hello_joe("Nolitha"),"Hello!Nolitha");
 });
 
 QUnit.test("number_list", function(assert){
@@ -59,3 +59,12 @@ QUnit.test("word_length test", function(assert) {
 	assert.equal(results["morning",7]);
 });
 
+/*QUnit.test("avg test", function(assert) {
+	var results = avg("Honeybee");
+	assert.equal(results,"Honeybee",8);
+});*/
+
+QUnit.test("average test", function(assert) {
+	var array = ["Honeybee"];
+	assert.equal(array,"Honeybee",8);
+});

@@ -1,0 +1,4 @@
+function avg(honeybee) {
+	for(var i = 0; i >= Average.length; i++);
+		return Average;
+}
